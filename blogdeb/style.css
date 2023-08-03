@@ -1,0 +1,111 @@
+h1, h3
+{
+    text-align:center;
+}
+h3
+{
+    background-color:black;
+    color:white;
+    font-size:0.9em;
+    margin-bottom:0px;
+}
+.news p
+{
+    background-color:#CCCCCC;
+    margin-top:0px;
+}
+.news
+{
+    width:70%;
+    margin:auto;
+}
+
+.zone-comment{
+    padding-top: 5px;
+    width: 70%;
+    margin:auto;
+}
+.posted-comment
+{
+    border: 1px solid black;
+    margin-bottom: 3px;
+}
+
+.post-com-auth
+{
+    background-color: rgb(158, 187, 216);
+ 
+}
+
+.date-com
+{
+    font-size: x-small;
+    
+}
+
+.post-com-content
+{
+    margin-left: 5px;
+}
+
+a
+{
+    text-decoration: none;
+    color: blue;
+}
+
+form.add-comment{
+    width: 70%;
+    margin:auto;
+}
+
+
+fieldset
+{   
+    background-color: #eeeeee;
+}
+  
+legend
+{
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+}
+
+textarea.comment{
+    width: 17px;
+    height: auto;
+}
+
+.textarea {
+    border: 1px solid #ccc;
+    background-color: white;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 1px;
+  }
+ .width-machine {
+    /*   Sort of a magic number to add extra space for number spinner */
+    padding: 0 1rem;
+  }
+
+.textarea {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    resize: both;
+    min-height: 40px;
+    line-height: 20px;
+  }
+
+.textarea[contenteditable]:empty::before {
+    content: "Commenter...";
+    color: gray;
+  }
+
+.comment-text{
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+  }
